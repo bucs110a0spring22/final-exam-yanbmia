@@ -1,10 +1,10 @@
 import requests
 import weather
-import music
+import name
 
 def main():
   weather.Weather()
-  music.Music()
+  name.Name()
 
   
 main()
