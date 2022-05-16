@@ -10,10 +10,17 @@ class Weather:
     properties = info['properties']
     periods = properties['periods']
 
-    day_1 = periods[0]
+    today = periods[0]
 
-    temp_Day = day_1['temperature']
-    print(temp_Day)
+    temp = today['temperature']
+    wind = today['windSpeed']
+
+    windNum = wind[0:1]
+    
+    return([temp,windNum])
+    #return(windNum)
+
+    
     
   tempWeek()
     

@@ -12,16 +12,22 @@ Please make sure you have completed the soot survey at:
     [soot.binghamton.edu](https://soot.binghamton.edu)
 
 Please list the urls for the APIs you used:
+[PoetryDB](https://github.com/thundercomb/poetrydb#readme)
+
+[National Weather Service](https://weather.gov/documentation/services-web-api)
 
 Summary of Program:
+Sourced the weather in NYC using NWS's api. A poem is sourced from PoetryDB based on the poem's line count (the current temperature). A line from the poem is sourced from the low wind speed. Turtles are used to display the text.
 
 Most Challenging topic in the course:
+Creating classes.
 
 ## KNOWN BUGS AND INCOMPLETE PARTS:
- < What parts of the project you were not able to complete >
+N/A
 
 ## REFERENCES:
- < List any outside resources used >
+N/A
+
 
 ## MISCELLANEOUS COMMENTS:
  Nope :)

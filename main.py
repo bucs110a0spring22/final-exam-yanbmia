@@ -1,10 +1,12 @@
 import requests
 import weather
-import name
+import poetry
+import today
+
 
 def main():
   weather.Weather()
-  name.Name()
+  poetry.Poetry()
+  today.Today()
 
-  
 main()
