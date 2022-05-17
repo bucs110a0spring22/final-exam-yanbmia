@@ -18,8 +18,10 @@ class Weather:
     wind = today['windSpeed']
 
     windNum = wind[0:1]
+
+    forecast = today["shortForecast"]
     
-    return([temp,windNum])
+    return([temp,windNum,forecast])
     #return(windNum)
 
     
