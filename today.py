@@ -29,8 +29,9 @@ class Today:
     style_1 = ('Courier', 30)
     style_2 = ('Courier', 15)
     style_3 = ('Courier', 10,'italic')
-    
-    tempTurt.write(temperature,font=style_1,align='center')
+
+    writeTemp = str(temperature)+"°F"
+    tempTurt.write(writeTemp,font=style_1,align='center')
     poemTurt.pu()
     poemTurt.goto(0,-30)
     poemTurt.pd()

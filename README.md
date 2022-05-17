@@ -20,10 +20,10 @@ Summary of Program:
 Sourced the weather in NYC using NWS's api. A poem is sourced from PoetryDB based on the poem's line count (the current temperature). A line from the poem is sourced from the low wind speed. Turtles are used to display the text.
 
 Most Challenging topic in the course:
-Creating classes.
+Understanding classes.
 
 ## KNOWN BUGS AND INCOMPLETE PARTS:
-N/A
+Sometimes when the program runs it'll say there's an index error. But when I run the program again, it kind of just goes away. Not sure why.
 
 ## REFERENCES:
 N/A

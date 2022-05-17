@@ -7,9 +7,9 @@ class Poetry:
     list = Weather.tempWeek()
     
     number = list[0]
-    website = "https://poetrydb.org/linecount/"+str(number)
+    api_url = "https://poetrydb.org/linecount/"+str(number)
     
-    request = requests.get(website)
+    request = requests.get(api_url)
     listofPoems = request.json()
     num = len(listofPoems)
     chooseOne = random.randrange(num+1)
