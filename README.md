@@ -1,4 +1,4 @@
-#### CS 110
+
 # Final Exam - Advanced Programming with Python
 
 ### [Exam Description](https://docs.google.com/document/d/1FI-WV95nSTK1JMg5j5sKhxcbl46DPVPkBrxC3FMo45g/edit?usp=sharing)
